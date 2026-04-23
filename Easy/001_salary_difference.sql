@@ -3,6 +3,7 @@
 -- Difficulty: Easy
 -- Pattern: CASE WHEN + AGGREGATION
 -- Source: StrataScratch
+-- Companies: Linkedin
 -- ============================================
 
 /*
