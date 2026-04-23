@@ -1,5 +1,6 @@
 -- ============================================
 -- Problem: Salary Difference Between Departments
+-- Question ID : 10308
 -- Difficulty: Easy
 -- Pattern: CASE WHEN + AGGREGATION
 -- Source: StrataScratch
