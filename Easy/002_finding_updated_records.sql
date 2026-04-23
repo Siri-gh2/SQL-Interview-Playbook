@@ -1,5 +1,6 @@
 -- ============================================
 -- Problem: Finding Updated Records
+-- Question ID : 10299
 -- Difficulty: Easy
 -- Pattern: GROUP BY / WINDOW FUNCTION
 -- Source: StrataScratch
