@@ -4,7 +4,7 @@
 -- Difficulty: Easy
 -- Pattern: CASE WHEN + AGGREGATION
 -- Source: StrataScratch
--- Companies: Linkedin
+-- Companies: Linkedin,DropBox
 -- ============================================
 
 /*
