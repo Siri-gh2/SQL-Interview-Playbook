@@ -1,5 +1,6 @@
 -- ============================================
 -- Problem: Workers With The Highest Salaries
+-- Question ID: 10353
 -- Difficulty: Easy
 -- Pattern: JOIN + SUBQUERY
 -- Companies: Amazon,DoorDash
