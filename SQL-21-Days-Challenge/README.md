@@ -52,7 +52,7 @@ Each day's folder contains the SQL practice material for that topic. File names 
 | 1 | WHERE clause | ✅ Completed |
 | 2 | GROUP BY and Aggregate Functions | ✅ Completed |
 | 3 | CASE WHEN | ✅ Completed |
-| 4 | Nested CASE WHEN | ⬜ Planned |
+| 4 | Nested CASE WHEN | ✅ Completed |
 | 5 | NULL handling — COALESCE, NULLIF, IFNULL | ⬜ Planned |
 | 6 | LEAD() and LAG() | ⬜ Planned |
 | 7 | String Functions | ⬜ Planned |
