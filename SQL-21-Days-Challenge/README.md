@@ -55,7 +55,7 @@ Each day's folder contains the SQL practice material for that topic. File names 
 | 4 | Nested CASE WHEN | ✅ Completed |
 | 5 | NULL handling — COALESCE, NULLIF, IFNULL | ✅ Completed |
 | 6 | LEAD() and LAG() | ✅ Completed |
-| 7 | String Functions | ⬜ Planned |
+| 7 | String Functions | ✅ Completed |
 | 8 | Date Functions | ⬜ Planned |
 | 9 | Common Table Expressions (CTEs) | ⬜ Planned |
 | 10 | Joins — LEFT JOIN, CROSS JOIN, FULL OUTER JOIN concepts | ⬜ Planned |
