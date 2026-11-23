@@ -2,7 +2,7 @@
 
 A structured 21-day journey to strengthen SQL fundamentals and advanced querying skills through daily hands-on practice using **MySQL**.
 
-The goal of this repository is to build consistency, improve problem-solving, and create a practical record of SQL queries, concepts, and learning progress.
+The goal is to build consistency, improve problem-solving skills, and maintain a practical record of SQL queries, concepts, solutions, and learning progress.
 
 ## About the Challenge
 
@@ -15,7 +15,7 @@ The goal of this repository is to build consistency, improve problem-solving, an
 ## Tech / Tools
 
 - MySQL
-- MySQL Workbench or another MySQL client
+- MySQL Workbench
 - Git and GitHub
 
 ## Repository Structure
@@ -24,43 +24,44 @@ The goal of this repository is to build consistency, improve problem-solving, an
 SQL-21-Days-Challenge/
 ├── README.md
 ├── Day-01-WHERE/
-│   ├── concept.md
-│   ├── schema.sql
-│   ├── solution.sql
-│   └── notes.md
 ├── Day-02-GROUP-BY/
-│   ├── concept.md
-│   ├── schema.sql
-│   ├── questions.sql
-│   ├── solutions.sql
-│   └── notes.md
 ├── Day-03-CASE-WHEN/
-│   ├── concept.md
-│   ├── schema.sql
-│   ├── questions.sql
-│   ├── solutions.sql
-│   └── notes.md
-└── ...
+├── Day-04-Nested-CASE-WHEN/
+├── Day-05-NULL-Handling/
+├── Day-06-LEAD-and-LAG/
+├── Day-07-String-Functions/
+└── Day-08-Date-Functions/
 ```
 
-Each day's folder contains the SQL practice material for that topic. File names may vary slightly between days as the repository evolves.
+Each day's folder contains the relevant practice materials:
+
+```text
+Day-XX-Topic/
+├── concept.md
+├── schema.sql
+├── questions.sql
+├── solutions.sql
+└── notes.md
+```
+
+*Note: File names may vary slightly between days as the repository evolves.*
 
 ## 21-Day Roadmap
 
 | Day | Topic | Status |
 |---:|---|---|
-| 1 | WHERE clause | ✅ Completed |
+| 1 | WHERE Clause | ✅ Completed |
 | 2 | GROUP BY and Aggregate Functions | ✅ Completed |
 | 3 | CASE WHEN | ✅ Completed |
 | 4 | Nested CASE WHEN | ✅ Completed |
-| 5 | NULL handling — COALESCE, NULLIF, IFNULL | ✅ Completed |
+| 5 | NULL Handling — COALESCE, NULLIF, IFNULL | ✅ Completed |
 | 6 | LEAD() and LAG() | ✅ Completed |
 | 7 | String Functions | ✅ Completed |
-| 8 | Date Functions | ⬜ Planned |
+| 8 | Date Functions | ✅ Completed |
 | 9 | Common Table Expressions (CTEs) | ⬜ Planned |
-| 10 | Joins — LEFT JOIN, CROSS JOIN, FULL OUTER JOIN concepts | ⬜ Planned |
+| 10 | Joins — LEFT JOIN, CROSS JOIN, FULL OUTER JOIN Concepts | ⬜ Planned |
 | 11 | HAVING | ⬜ Planned |
-| 12 | ROWS BETWEEN for range calculations | ⬜ Planned |
+| 12 | ROWS BETWEEN for Range Calculations | ⬜ Planned |
 | 13 | Moving Average and Rolling Sum | ⬜ Planned |
 | 14 | Advanced ROWS BETWEEN | ⬜ Planned |
 | 15 | Self Joins | ⬜ Planned |
@@ -71,18 +72,16 @@ Each day's folder contains the SQL practice material for that topic. File names 
 | 20 | Views and Triggers | ⬜ Planned |
 | 21 | Stored Procedures | ⬜ Planned |
 
-> Progress reflects the work completed and committed to this repository. Update the status as each day is finished.
-
 ## How to Use This Repository
 
 1. Open the folder for the day you want to practise.
-2. Read `concept.md` before attempting the exercises.
-3. Run `schema.sql` in MySQL to create the practice table and sample data, if that day's folder includes it.
-4. Attempt the questions in `questions.sql` before looking at the solutions.
+2. Read `concept.md` to understand the topic.
+3. Run `schema.sql` in MySQL to create the required tables and sample data.
+4. Attempt the exercises in `questions.sql` without checking the solutions.
 5. Compare your queries with `solutions.sql`.
 6. Record mistakes, corrections, and important takeaways in `notes.md`.
 
-**Tip:** Try to solve each question independently before checking the solution. Understanding why a query works is more important than simply completing the question.
+**Tip:** Try to solve every question independently before checking the solution. Understanding why a query works is more important than simply completing the question.
 
 ## Learning Goals
 
@@ -92,6 +91,7 @@ By the end of this challenge, the aim is to become more confident in:
 - Aggregating and grouping data
 - Writing conditional queries
 - Handling NULL values
+- Working with date and string functions
 - Joining and combining tables
 - Using subqueries and CTEs
 - Applying window functions
@@ -100,15 +100,16 @@ By the end of this challenge, the aim is to become more confident in:
 
 ## Progress Summary
 
-- Days completed: **3 / 21**
-- Questions completed: **24 guided practice questions**
-- Current focus: **Building independent problem-solving ability**
+- **Days completed:** 8 / 21
+- **Guided questions completed:** 64
+- **Current focus:** Building independent SQL problem-solving ability
+- **Next topic:** Common Table Expressions (CTEs)
 
-The question count and progress summary should be updated as the challenge continues.
+Progress is updated as each day's practice is completed. The challenge emphasizes understanding, independent problem-solving, and consistent practice rather than just counting completed questions.
 
 ## Disclaimer
 
-This repository documents a learning challenge. The solutions and notes are part of an ongoing practice process and may be refined as concepts are revisited or improved.
+This repository documents an ongoing SQL learning challenge. The queries, solutions, and notes may be refined as concepts are revisited and understanding improves.
 
 ---
 
