@@ -30,7 +30,8 @@ SQL-21-Days-Challenge/
 ├── Day-05-NULL-Handling/
 ├── Day-06-LEAD-and-LAG/
 ├── Day-07-String-Functions/
-└── Day-08-Date-Functions/
+├── Day-08-Date-Functions/
+└── Day-09-CTEs/
 ```
 
 Each day's folder contains the relevant practice materials:
@@ -58,7 +59,7 @@ Day-XX-Topic/
 | 6 | LEAD() and LAG() | ✅ Completed |
 | 7 | String Functions | ✅ Completed |
 | 8 | Date Functions | ✅ Completed |
-| 9 | Common Table Expressions (CTEs) | ⬜ Planned |
+| 9 | Common Table Expressions (CTEs) | ✅ Completed |
 | 10 | Joins — LEFT JOIN, CROSS JOIN, FULL OUTER JOIN Concepts | ⬜ Planned |
 | 11 | HAVING | ⬜ Planned |
 | 12 | ROWS BETWEEN for Range Calculations | ⬜ Planned |
@@ -100,10 +101,10 @@ By the end of this challenge, the aim is to become more confident in:
 
 ## Progress Summary
 
-- **Days completed:** 8 / 21
-- **Guided questions completed:** 64
+- **Days completed:** 9 / 21
+- **Guided questions completed:** 72
 - **Current focus:** Building independent SQL problem-solving ability
-- **Next topic:** Common Table Expressions (CTEs)
+- **Next topic:** SQL Joins
 
 Progress is updated as each day's practice is completed. The challenge emphasizes understanding, independent problem-solving, and consistent practice rather than just counting completed questions.
 
